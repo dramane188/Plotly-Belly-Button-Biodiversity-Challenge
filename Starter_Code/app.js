@@ -27,8 +27,6 @@ function getPlot(id) {
         // get the top 10 labels for the plot
         var labels = samples.otu_labels.slice(0, 10);
   
-      //   console.log(`Sample Values: ${samplevalues}`)
-      //   console.log(`Id Values: ${OTU_top}`)
         // create trace variable for the plot
         var trace = {
             x: samplevalues,
